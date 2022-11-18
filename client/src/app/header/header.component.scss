@@ -1,0 +1,12 @@
+
+@use '@angular/material' as mat;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #348ceb;
+}
+
+h1 {
+  font-size: xx-large;
+}
