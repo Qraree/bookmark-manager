@@ -5,6 +5,8 @@
     <input type="email" matInput [formControl]="email" required>
     <mat-icon matSuffix>email</mat-icon>
     <mat-error *ngIf="email.invalid">{{ getEmailErrorMessage() }}</mat-error>
+  </mat-form-field>
+  <mat-form-field appearance="outline">
     <mat-label>Password</mat-label>
     <input type="password" matInput [formControl]="password" required>
     <mat-icon matSuffix>lock</mat-icon>
